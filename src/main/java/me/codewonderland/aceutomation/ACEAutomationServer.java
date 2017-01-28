@@ -12,7 +12,8 @@ public class ACEAutomationServer {
     private static boolean diffuserIsOn = false;
 
     public static void main(String[] args) {
-        post("/power", (req, res) -> {
+
+        post("/togglePower", (req, res) -> {
             JSONObject request = new JSONObject(req.body());
             return "success";
         });
