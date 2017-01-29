@@ -1,4 +1,4 @@
-package me.codewonderland.aceutomation;
+package me.codewonderland.aceautomation;
 
 import org.json.JSONObject;
 
