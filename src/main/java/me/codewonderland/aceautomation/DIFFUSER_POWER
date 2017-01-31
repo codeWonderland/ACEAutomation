@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo /etc/init.d/lirc start
+irsend SEND_ONCE elliaDiffuser KEY_POWER
+echo [ ok ] Sending Signal to Diffuser... SUCCESS!
+sudo /etc/init.d/lirc stop
