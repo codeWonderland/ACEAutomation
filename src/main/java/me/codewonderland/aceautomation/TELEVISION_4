@@ -1,0 +1,4 @@
+sudo /etc/init.d/lirc start
+irsend SEND_ONCE dynexTelevision KEY_4
+echo [ ok ] Sending Signal to Diffuser... SUCCESS!
+sudo /etc/init.d/lirc stop
