@@ -13,6 +13,8 @@ public class ACEAutomationServer {
 
     public static void main(String[] args) {
 
+        LIRCManager.sendCommand(AutomationCommand.DIFFUSER_PLAY);
+
         post("/togglePower", (req, res) -> {
             JSONObject request = new JSONObject(req.body());
             return "success";
