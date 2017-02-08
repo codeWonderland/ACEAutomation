@@ -1,0 +1,1 @@
+java -cp /home/pi/ACEAutomation/target/uber-ace-automation-1.0-SNAPSHOT.jar me.codewonderland.aceautomation.ACEAutomationServer

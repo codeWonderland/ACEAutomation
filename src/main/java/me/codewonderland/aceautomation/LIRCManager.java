@@ -14,7 +14,7 @@ public class LIRCManager {
     public static void sendCommand(String lircCommand, String lircName) {
         runBashCommands(Arrays.asList(
                 Arrays.asList("sudo", "/etc/init.d/lirc", "start"),
-                Arrays.asList("irsend", "SEND_ONCE", lircName, lircCommand),
+                Arrays.asList("irsend", "SEND_ONCE", "elliaDiffuser", "KEY_PLAY"),
                 Arrays.asList("sudo", "/etc/init.d/lirc", "stop")
         ));
     }
@@ -36,7 +36,7 @@ public class LIRCManager {
                 while ((line = br.readLine()) != null) {
                     System.out.println(line);
                 }
-                
+
 
                 // wait to get exit value
                 try {
