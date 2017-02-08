@@ -27,7 +27,7 @@ public class LIRCManager {
                 Process process = processBuilder.start();
 
                 // read command output
-                /*
+
                 InputStream is = process.getInputStream();
                 InputStreamReader isr = new InputStreamReader(is);
                 BufferedReader br = new BufferedReader(isr);
@@ -36,7 +36,7 @@ public class LIRCManager {
                 while ((line = br.readLine()) != null) {
                     System.out.println(line);
                 }
-                */
+                
 
                 // wait to get exit value
                 try {
