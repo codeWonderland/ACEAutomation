@@ -1,7 +1,7 @@
 package me.codewonderland.aceautomation;
 
 public enum Automatable {
-    ELLIA_DIFFUSER("eliaDiffuser"),
+    ELLIA_DIFFUSER("elliaDiffuser"),
     DYNEX_TELEVISION("dynexTelevision");
 
     private final String lircName;
